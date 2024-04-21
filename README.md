@@ -1,1 +1,11 @@
 # Course project for regular website layout, without frameworks
+### Main page (Головна)
+![img.png](img_for_readme/main.png)
+### Delivery page (Доставка)
+![img.png](img_for_readme/delivery.png)
+### Stock page (Акції)
+![img.png](img_for_readme/stock.png)
+### Contacts page (Контакти)
+![img.png](img_for_readme/contacts.png)
+### Establishment page (Наш заклад)
+![img.png](img_for_readme/establishment.png)
