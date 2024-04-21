@@ -1,0 +1,231 @@
+.menu {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  padding: 0 370px;
+  margin: 32px 0 0;
+
+  &__pizza {
+    &-text {
+      font-size: 32px;
+      margin: 0 0 23px 0;
+    }
+
+    &-list {
+      display: flex;
+
+
+    }
+
+    &-card {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+
+      width: 17rem;
+      height: 25rem;
+      border: 1px solid rgb(70, 36, 33);
+      border-radius: 25px;
+
+      margin: 0 33px 3rem 0;
+
+      background: rgba(217, 217, 217, 0);
+
+      &:last-child {
+        margin: 0 0 3rem 0;
+      }
+
+      &_image {
+        width: 20rem;
+        height: 15rem;
+      }
+
+      &_name {
+        display: flex;
+        justify-content: center;
+
+        width: 13.5rem;
+        margin: 0.6rem auto 0.3rem;
+        padding: 0 0 0.3rem 0;
+        font-size: 1.5rem;
+
+        border-bottom: 1px solid rgb(70, 36, 33);
+      }
+
+      &_description {
+        display: flex;
+        justify-content: center;
+        text-align: center;
+
+        width: 13rem;
+        margin: 4px 0 0 0;
+
+        color: rgb(31, 31, 31);
+        font-size: 0.75rem;
+        font-weight: 700;
+        line-height: 12px;
+      }
+
+      &_price {
+        color: rgb(51, 51, 51);
+        margin: 0.7rem auto 1.2rem;
+
+        & span {
+          color: rgb(70, 36, 33);
+          font-size: 2.3rem;
+        }
+      }
+    }
+  }
+
+  &__drink {
+    &-text {
+      font-size: 32px;
+      margin: 0 0 23px 0;
+    }
+
+    &-list {
+      display: flex;
+
+
+    }
+
+    &-card {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+
+      width: 17rem;
+      height: 25rem;
+      border: 1px solid rgb(70, 36, 33);
+      border-radius: 25px;
+
+      margin: 0 33px 3rem 0;
+
+      background: rgba(217, 217, 217, 0);
+
+      &:last-child {
+        margin: 0 0 3rem 0;
+      }
+
+      &_image {
+        width: 20rem;
+        height: 15rem;
+
+        margin: 10px 0 0 0;
+      }
+
+      &_name {
+        display: flex;
+        justify-content: center;
+
+        width: 13.5rem;
+        margin: 0.6rem auto 0.3rem;
+        padding: 0 0 0.3rem 0;
+        font-size: 1.5rem;
+
+        border-bottom: 1px solid rgb(70, 36, 33);
+      }
+
+      &_description {
+        display: flex;
+        justify-content: center;
+        text-align: center;
+
+        width: 13rem;
+        margin: 4px 0 0 0;
+
+        color: rgb(31, 31, 31);
+        font-size: 0.75rem;
+        font-weight: 700;
+        line-height: 12px;
+      }
+
+      &_price {
+        color: rgb(51, 51, 51);
+        margin: 0.7rem auto 1.2rem;
+
+        & span {
+          color: rgb(70, 36, 33);
+          font-size: 2.3rem;
+        }
+      }
+    }
+  }
+
+  &__coupons {
+    &-text {
+      font-size: 32px;
+      margin: 0 0 23px 0;
+    }
+
+    &-list {
+      display: flex;
+
+
+    }
+
+    &-card {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+
+      width: 17rem;
+      height: 25rem;
+      border: 1px solid rgb(70, 36, 33);
+      border-radius: 25px;
+
+      margin: 0 33px 3rem 0;
+
+      background: rgba(217, 217, 217, 0);
+
+      &:last-child {
+        margin: 0 0 3rem 0;
+      }
+
+      &_image {
+        width: 20rem;
+        height: 15rem;
+
+        margin: 5px 0 0 0;
+      }
+
+      &_name {
+        display: flex;
+        justify-content: center;
+
+        width: 13.5rem;
+        margin: 0.6rem auto 0.3rem;
+        padding: 0 0 0.3rem 0;
+        font-size: 1.5rem;
+
+        border-bottom: 1px solid rgb(70, 36, 33);
+      }
+
+      &_description {
+        display: flex;
+        justify-content: center;
+        text-align: center;
+
+        width: 13rem;
+        margin: 4px 0 0 0;
+
+        color: rgb(31, 31, 31);
+        font-size: 0.75rem;
+        font-weight: 700;
+        line-height: 12px;
+      }
+
+      &_price {
+        color: rgb(51, 51, 51);
+        margin: 0.7rem auto 1.2rem;
+
+        & span {
+          color: rgb(70, 36, 33);
+          font-size: 2.3rem;
+        }
+      }
+    }
+  }
+}

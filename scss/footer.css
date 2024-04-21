@@ -1,0 +1,28 @@
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100px;
+  color: #2F2F2F;
+}
+.footer__container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-top: 1px solid rgb(79, 79, 79);
+  width: 1100px;
+  margin: 5rem 0 0 30px;
+  padding: 19px 0 19px 0;
+}
+.footer__logo {
+  margin: 0 204px 0 20px;
+}
+.footer__commercial {
+  margin: 0 201.5px 0 0;
+  text-align: center;
+}
+.footer__company {
+  text-align: center;
+}
+
+/*# sourceMappingURL=footer.css.map */

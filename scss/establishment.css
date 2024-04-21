@@ -1,0 +1,36 @@
+.establishment__contents {
+  display: flex;
+  justify-content: center;
+  margin: 31px 0 58px;
+  color: rgb(70, 36, 33);
+  font-size: 24px;
+  font-weight: 500;
+}
+.establishment__info {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.establishment__text {
+  display: flex;
+  margin: 0 0 59px 0;
+}
+.establishment__text_image {
+  margin: 0 8px 0 0;
+}
+.establishment__text_name {
+  color: rgb(70, 36, 33);
+  font-size: 18px;
+  font-weight: 500;
+  margin: 0 15px 0 0;
+}
+.establishment__text_description {
+  color: rgb(47, 47, 47);
+  font-size: 18px;
+  font-weight: 500;
+}
+.establishment__map {
+  margin: 0 0 40px;
+}
+
+/*# sourceMappingURL=establishment.css.map */
